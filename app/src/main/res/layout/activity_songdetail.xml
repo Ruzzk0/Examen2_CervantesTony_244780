@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lila">
+
+    <ImageView
+        android:id="@+id/image_header"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/blue" />
+
+    <TextView
+        android:id="@+id/title_song"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/amarillopatito"
+        android:text="Titulo de la Cancion"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/artist_song"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Artista"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/album_song"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Album"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/duration_song"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Duracion"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Cancion"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Canción"
+        android:textSize="12sp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center" />
+</LinearLayout>

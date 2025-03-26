@@ -3,8 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/moradito"
-    >
+    android:background="@color/moradito">
 
     <ImageView
         android:layout_width="match_parent"
@@ -24,7 +23,7 @@
         android:textAlignment="center"/>
 
     <Button
-        android:id="@+id/boton"
+        android:id="@+id/start_button"
         android:layout_width="237dp"
         android:layout_height="40dp"
         android:layout_marginTop="16dp"
