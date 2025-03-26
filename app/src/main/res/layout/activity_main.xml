@@ -27,7 +27,8 @@
         android:layout_width="237dp"
         android:layout_height="40dp"
         android:layout_marginTop="16dp"
-        android:text="@string/start_button"
+        android:text="Start"
         android:textColor="@color/amarillopatito"
         android:layout_gravity="center"/>
+
 </LinearLayout>

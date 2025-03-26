@@ -10,7 +10,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.EXAMEN2_CERVANTESMELLADOTONY">
+        android:theme="@style/Theme.EXAMEN2_CERVANTESMELLADOTONY"
+        tools:targetApi="31">
 
         <!-- Main Activity -->
         <activity
@@ -23,13 +24,19 @@
         </activity>
 
         <!-- Catalog Activity -->
-        <activity android:name=".ui.CatalogActivity" android:exported="true" />
+        <activity
+            android:name=".ui.CatalogActivity"
+            android:exported="true" />
 
         <!-- Add Song Activity -->
-        <activity android:name=".ui.AddSongActivity" android:exported="true" />
+        <activity
+            android:name=".ui.AddSongActivity"
+            android:exported="true" />
 
         <!-- Song Detail Activity -->
-        <activity android:name=".ui.SongDetail" android:exported="true" />
+        <activity
+            android:name=".ui.SongDetail"
+            android:exported="true" />
 
     </application>
 
