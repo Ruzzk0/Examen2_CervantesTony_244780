@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <?xml version="1.0" encoding="utf-8"?>
+
+    <!-- Colores base de la aplicación -->
+    <color name="moradito">#0D0640</color>
+    <color name="amarillopatito">#F2E6A7</color>
+    <color name="lila">#4D5D8C</color>
+    <color name="otrolila">#8D41BF</color>
+
+    <!-- Colores de fondo para celdas de canciones (para coloreo aleatorio) -->
+    <!-- NOTA: Estos colores se pueden modificar para personalizar la apariencia de la lista de canciones -->
+    <color name="fondo_celda_1">#E6F2FF</color>
+    <color name="fondo_celda_2">#FFF0E6</color>
+    <color name="fondo_celda_3">#E6FFE6</color>
+    <color name="fondo_celda_4">#FFE6F2</color>
+    <color name="fondo_celda_5">#F2E6FF</color>
+
+</resources>

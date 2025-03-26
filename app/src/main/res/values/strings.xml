@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Examen2_CervantesTony_244780</string>
+
+    <!-- Cadenas para la Actividad Principal -->
+    <string name="welcome_text">Bienvenido a tu Aplicación de Musica!</string>
+    <string name="songs_list_title">Mis Canciones</string>
+    <string name="add_song_button">Agregar Cancion</string>
+    <string name="start_button">Bienvenido!</string>
+    <!-- Cadenas para la Actividad de Detalles de Canción -->
+    <string name="song_detail_title">Detalles de Cancion</string>
+    <string name="play_button_prefix">Play </string>
+
+    <!-- Cadenas para la Actividad de Agregar Canción -->
+    <string name="add_song_screen_title">Agregar Nueva Canción</string>
+    <string name="song_name_hint">Nombre de la Cancion</string>
+    <string name="artist_name_hint">Nombre del Artista/Banda</string>
+    <string name="duration_hint">Duracion (MM:SS)</string>
+    <string name="album_hint">Album Name</string>
+    <string name="save_song_button">Guardar Cancion</string>
+
+    <!-- Cadenas para la Actividad de Reproducción -->
+    <string name="player_title">Reproducir Ahora</string>
+    <string name="stop_button">Stop</string>
+
+</resources>
